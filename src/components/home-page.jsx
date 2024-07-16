@@ -31,26 +31,31 @@ import { CardContent, Card } from "@/components/ui/card";
 export function HomePage() {
   return (
     <main className="flex-1">
-      <section className="bg-neutral py-12 md:py-20">
+      <section className="bg-base-200 py-12 md:py-20">
         <div className="container mx-auto px-4 md:px-8">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="grid md:grid-cols-2 gap-8 items-center ">
             <div>
-              <h2 className="text-3xl font-bold mb-4 text-primary">
-                Sistemas H.G.C.: Automotive Parts Excellence
+              <h2 className="text-4xl font-bold mb-4 text-primary">
+                Construyendo el futuro,
+                <br />
+                Pieza por pieza
               </h2>
-              <p className="text-gray-600 mb-6">
-                Sistemas H G C is a leading provider of high-quality automotive
-                parts, serving the industry for over a decade with expertise and
-                innovation.
+              <p className="text-base-content text-lg mb-6">
+                Sistemas H G C es el proveedor líder de piezas automotrices de
+                alta calidad, que sirve a la industria automotriz desde hace más
+                de una década con experiencia e innovación.
               </p>
               <div className="flex items-center gap-4">
-                <Button
-                  className="bg-primary text-base-100 px-6 py-3 rounded-md hover:bg-secondary"
-                  href="#"
+                <Link
+                  className="btn btn-secondary hover:scale-105"
+                  href="/contacto"
                 >
                   Contacto
-                </Button>
-                <Link className="text-primary hover:underline" href="#">
+                </Link>
+                <Link
+                  className="btn glass  hover:scale-105"
+                  href="/sobre-nosotros"
+                >
                   Más Información
                 </Link>
               </div>
@@ -58,9 +63,9 @@ export function HomePage() {
             <div className="hidden md:block">
               <img
                 alt="Automotive Parts"
-                className="rounded-lg"
+                className="rounded-lg shadow-md"
                 height="400"
-                src="/placeholder.svg"
+                src="../../images/homeimage.png"
                 style={{
                   aspectRatio: "500/400",
                   objectFit: "cover",
@@ -77,20 +82,35 @@ export function HomePage() {
             Nuestros Clientes
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <img
-              alt="Fiat"
-              className="aspect-[2/1] object-contain"
-              height="70"
-              src="/placeholder.svg"
-              width="140"
-            />
-            <img
-              alt="Renault"
-              className="aspect-[2/1] object-contain"
-              height="70"
-              src="/placeholder.svg"
-              width="140"
-            />
+            <a
+              href="https://www.fiat.com.ar/"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-ghost glass hover:scale-105 max-w-[140px] h-20"
+            >
+              {" "}
+              <img
+                alt="Fiat"
+                className="aspect-[2/1] object-contain"
+                height="70"
+                src="../../fiat-logo.png"
+                width="140"
+              />
+            </a>
+            <a
+              href="https://www.renault.com.ar/"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-ghost glass hover:scale-105 max-w-[140px] h-20"
+            >
+              <img
+                alt="Renault"
+                className="aspect-[2/1] object-contain"
+                height="70"
+                src="../../Renault_2021.png"
+                width="140"
+              />
+            </a>
             <img
               alt="Volkswagen"
               className="aspect-[2/1] object-contain"
@@ -108,15 +128,15 @@ export function HomePage() {
           </div>
         </div>
       </section>
-      <section className="bg-neutral py-12 md:py-20">
+      <section className="bg-base-200 py-12 md:py-20">
         <div className="container mx-auto px-4 md:px-8">
           <h2 className="text-3xl font-bold mb-8 text-center text-primary">
             Nuestros Productos
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card>
-              <img
-                alt="Product 1"
+            <Card className="border-0">
+              {/* <img
+                alt="Apoya-Cabezas"
                 className="rounded-t-lg"
                 height="300"
                 src="/placeholder.svg"
@@ -125,26 +145,20 @@ export function HomePage() {
                   objectFit: "cover",
                 }}
                 width="400"
-              />
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-primary">
-                  Filtro de Aceite
+              /> */}
+              <CardContent className="p-6 bg-primary rounded-lg">
+                <h3 className="text-xl font-bold mb-2 text-base-100">
+                  Apoya Cabezas
                 </h3>
-                <p className="text-gray-600 mb-4">
-                  Nuestro filtro de aceite de alta calidad garantiza una
-                  protección óptima para su motor.
+                <p className="text-base-200 mb-4">
+                  Nuestros apoya-cabezas están diseñados para proporcionar el
+                  máximo confort y seguridad durante sus viajes.
                 </p>
-                <Button
-                  className="bg-primary text-base-100 px-4 py-2 rounded-md hover:bg-secondary"
-                  href="#"
-                >
-                  Comprar
-                </Button>
               </CardContent>
             </Card>
-            <Card>
-              <img
-                alt="Product 2"
+            <Card className="border-0">
+              {/* <img
+                alt="Estructuras"
                 className="rounded-t-lg"
                 height="300"
                 src="/placeholder.svg"
@@ -153,26 +167,20 @@ export function HomePage() {
                   objectFit: "cover",
                 }}
                 width="400"
-              />
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-primary">
-                  Pastillas de Freno
+              /> */}
+              <CardContent className="p-6 bg-primary rounded-lg">
+                <h3 className="text-xl font-bold mb-2 text-base-100">
+                  Estructuras
                 </h3>
-                <p className="text-gray-600 mb-4">
-                  Nuestras pastillas de freno de alto rendimiento ofrecen una
-                  frenada segura y confiable.
+                <p className="text-base-200 mb-4">
+                  Ofrecemos estructuras robustas y duraderas, ideales para la
+                  construcción de vehículos resistentes y seguros.
                 </p>
-                <Button
-                  className="bg-primary text-base-100 px-4 py-2 rounded-md hover:bg-secondary"
-                  href="#"
-                >
-                  Comprar
-                </Button>
               </CardContent>
             </Card>
-            <Card>
-              <img
-                alt="Product 3"
+            <Card className="border-0">
+              {/* <img
+                alt="Parrillas"
                 className="rounded-t-lg"
                 height="300"
                 src="/placeholder.svg"
@@ -181,26 +189,89 @@ export function HomePage() {
                   objectFit: "cover",
                 }}
                 width="400"
-              />
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-primary">
-                  Amortiguadores
+              /> */}
+              <CardContent className="p-6 bg-primary rounded-lg">
+                <h3 className="text-xl font-bold mb-2 text-base-100">
+                  Parrillas
                 </h3>
-                <p className="text-gray-600 mb-4">
-                  Nuestros amortiguadores de alta calidad garantizan un viaje
-                  suave y cómodo.
+                <p className="text-base-200 mb-4">
+                  Nuestras parrillas ofrecen un diseño elegante y funcional,
+                  proporcionando ventilación y protección al motor.
                 </p>
-                <Button
-                  className="bg-primary text-base-100 px-4 py-2 rounded-md hover:bg-secondary"
-                  href="#"
-                >
-                  Comprar
-                </Button>
+              </CardContent>
+            </Card>
+            <Card className="border-0">
+              {/* <img
+                alt="Apoya-Brazos"
+                className="rounded-t-lg"
+                height="300"
+                src="/placeholder.svg"
+                style={{
+                  aspectRatio: "400/300",
+                  objectFit: "cover",
+                }}
+                width="400"
+              /> */}
+              <CardContent className="p-6 bg-primary rounded-lg">
+                <h3 className="text-xl font-bold mb-2 text-base-100">
+                  Apoya Brazos
+                </h3>
+                <p className="text-base-200 mb-4">
+                  Diseñados para el confort del conductor y los pasajeros,
+                  nuestros apoya-brazos son ergonómicos y ajustables.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="border-0">
+              {/* <img
+                alt="Respaldo"
+                className="rounded-t-lg"
+                height="300"
+                src="/placeholder.svg"
+                style={{
+                  aspectRatio: "400/300",
+                  objectFit: "cover",
+                }}
+                width="400"
+              /> */}
+              <CardContent className="p-6 bg-primary rounded-lg">
+                <h3 className="text-xl font-bold mb-2 text-base-100">
+                  Respaldo
+                </h3>
+                <p className="text-base-200 mb-4">
+                  Nuestros respaldos ofrecen el soporte necesario para la
+                  espalda, proporcionando una postura adecuada durante la
+                  conducción.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="border-0">
+              {/* <img
+                alt="Soportes"
+                className="rounded-t-lg"
+                height="300"
+                src="/placeholder.svg"
+                style={{
+                  aspectRatio: "400/300",
+                  objectFit: "cover",
+                }}
+                width="400"
+              /> */}
+              <CardContent className="p-6 bg-primary rounded-lg">
+                <h3 className="text-xl font-bold mb-2 text-base-100">
+                  Soportes
+                </h3>
+                <p className="text-base-200 mb-4">
+                  Ofrecemos una variedad de soportes diseñados para diferentes
+                  aplicaciones automotrices, garantizando estabilidad y
+                  seguridad.
+                </p>
               </CardContent>
             </Card>
           </div>
         </div>
       </section>
+
       <section className="bg-primary text-base-100 py-12 md:py-20">
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -213,18 +284,18 @@ export function HomePage() {
                 automotrices. Llámanos o envíanos un mensaje.
               </p>
               <div className="flex items-center gap-4">
-                <Button
-                  className="bg-base-100 text-primary px-6 py-3 rounded-md hover:bg-secondary"
-                  href="#"
+                <Link
+                  className="btn btn-secondary hover:scale-105"
+                  href="/contacto"
                 >
                   Enviar Mensaje
-                </Button>
+                </Link>
                 <a
                   className="text-base-100 hover:underline flex items-center gap-2"
-                  href="#"
+                  href="tel:+541147220988"
                 >
                   <PhoneIcon className="h-5 w-5" />
-                  4722-0988
+                  11 4722-0988
                 </a>
               </div>
             </div>
@@ -233,7 +304,7 @@ export function HomePage() {
                 alt="Contact Us"
                 className="rounded-lg"
                 height="400"
-                src="/placeholder.svg"
+                src="../../images/sistemas-hgc-taller.png"
                 style={{
                   aspectRatio: "500/400",
                   objectFit: "cover",

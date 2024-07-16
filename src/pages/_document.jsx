@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="es" data-theme="sistemasHGC">
+      <Html lang="es" data-theme="light">
         <Head>
           <meta charSet="UTF-8" />
           <meta
@@ -47,7 +47,8 @@ class MyDocument extends Document {
           />
 
           <link rel="canonical" href="https://www.sistemashgc.com" />
-          <link rel="icon" href="/favicon.ico" />
+          {/* <link rel="icon" href="/favicon.ico" /> */}
+          <link rel="icon" href="../../favicon.ico" />
           <link
             rel="apple-touch-icon"
             sizes="180x180"

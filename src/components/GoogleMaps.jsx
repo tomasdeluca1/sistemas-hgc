@@ -15,7 +15,7 @@ function MyComponent() {
   return (
     <div className="w-full h-full rounded-lg">
       <LoadScript
-        googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}
+        googleMapsApiKey={process.env.NEXT_PRIVATE_GOOGLE_MAPS_API_KEY}
       >
         <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={15}>
           <Marker position={center} />

@@ -4,8 +4,8 @@ const nextConfig = {
     esmExternals: true,
   },
   env: {
-    NEXT_PUBLIC_GOOGLE_MAPS_API_KEY:
-      process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+    NEXT_PRIVATE_GOOGLE_MAPS_API_KEY:
+      process.env.NEXT_PRIVATE_GOOGLE_MAPS_API_KEY,
   },
 };
 

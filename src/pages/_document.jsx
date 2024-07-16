@@ -27,7 +27,7 @@ class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://example.com/imagen.jpg" // Reemplazar con la URL real de la imagen
+            content="../../images/home-image.png" // Reemplazar con la URL real de la imagen
           />
           <meta property="og:url" content="https://www.sistemashgc.com" />
           <meta property="og:type" content="website" />
@@ -43,7 +43,7 @@ class MyDocument extends Document {
           />
           <meta
             name="twitter:image"
-            content="https://example.com/imagen.jpg" // Reemplazar con la URL real de la imagen
+            content="../../images/home-image.png" // Reemplazar con la URL real de la imagen
           />
 
           <link rel="canonical" href="https://www.sistemashgc.com" />

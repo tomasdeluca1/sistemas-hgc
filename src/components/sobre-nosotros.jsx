@@ -34,7 +34,7 @@ export function SobreNosotros() {
                 Nuestra Historia
               </h2>
               <p className="mt-8 text-lg leading-8 text-gray-600">
-                Sistemas H G C fue fundada en 2010 con el objetivo de
+                Sistemas H G C fue fundada en 1998 con el objetivo de
                 proporcionar soluciones innovadoras y de alta calidad para la
                 industria automotriz. Desde entonces, hemos crecido
                 constantemente, convirtiéndonos en un proveedor confiable y
@@ -58,66 +58,29 @@ export function SobreNosotros() {
       </section>
       <section className="py-16 md:py-24 lg:py-32 bg-neutral dark:bg-gray-800">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold tracking-tight text-base-100 sm:text-5xl md:text-6xl text-center">
-            Nuestra Experiencia
-          </h2>
-          <p className="mt-8 text-lg leading-8 text-base-200 text-center max-w-2xl mx-auto">
-            Sistemas H G C es una empresa líder en la fabricación y
-            comercialización de piezas automotrices. Con más de dos décadas de
-            experiencia en el sector, hemos desarrollado un profundo
-            conocimiento de las necesidades de nuestros clientes y una capacidad
-            probada para entregar soluciones a la medida.
-          </p>
-          <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-12 md:gap-16 lg:gap-20">
-            <div className="flex justify-center">
-              <img
-                alt="Fiat"
-                className="h-14 w-auto"
-                height={60}
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "120/60",
-                  objectFit: "cover",
-                }}
-                width={120}
-              />
+          <div className="flex flex-col lg:flex-row-reverse items-center justify-center ">
+            <div className="lg:space-x-10">
+              <h2 className="text-4xl font-bold ml-10 tracking-tight text-base-100 sm:text-5xl lg:text-6xl text-center lg:text-left">
+                Nuestra Experiencia
+              </h2>
+              <h3 className="mt-8 text-xl font-medium text-base-100 sm:text-2xl text-center lg:text-left">
+                Líder en la Industria Metalúrgica Automotriz y Línea Blanca en
+                Argentina
+              </h3>
+              <p className="mt-4 text-lg leading-8 text-base-200 text-center max-w-2xl lg:text-left">
+                Sistemas HGC – Tecnoconfor es un referente en la industria
+                metalúrgica argentina, especializado en autopartes automotrices
+                y línea blanca. Con más de 25 años de experiencia, ofrecemos
+                productos de alta calidad respaldados por la Certificación IATF
+                16949:2016 y la Auditoría VDA 6.3, asegurando el respeto,
+                profesionalismo, y satisfacción del cliente.
+              </p>
             </div>
             <div className="flex justify-center">
               <img
-                alt="Renault"
-                className="h-14 w-auto"
-                height={60}
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "120/60",
-                  objectFit: "cover",
-                }}
-                width={120}
-              />
-            </div>
-            <div className="flex justify-center">
-              <img
-                alt="Logo"
-                className="h-14 w-auto"
-                height={60}
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "120/60",
-                  objectFit: "cover",
-                }}
-                width={120}
-              />
-            </div>
-            <div className="flex justify-center">
-              <img
-                alt="Logo"
-                className="h-14 w-auto"
-                height={60}
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "120/60",
-                  objectFit: "cover",
-                }}
+                alt="IATF Certified"
+                className="mt-8 lg:mt-0 w-2/3 lg:w-auto bg-base-100 rounded-full shadow-lg "
+                src="../../images/logo-IATF.png"
                 width={120}
               />
             </div>

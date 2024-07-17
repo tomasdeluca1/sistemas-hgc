@@ -9,7 +9,7 @@ const Nosotros = () => {
         <title>Sistemas H G C | Sobre Nosotros</title>
         <meta
           name="description"
-          content="Sistemas H G C es una empresa líder en la fabricación y comercialización de piezas automotrices con más de 10 años de experiencia, ofreciendo soluciones innovadoras y de alta calidad para la industria automotriz."
+          content="Sistemas H G C es una empresa líder en la fabricación y comercialización de piezas automotrices con más de 25 años de experiencia, ofreciendo soluciones innovadoras y de alta calidad para la industria automotriz."
         />
         <meta
           name="keywords"
@@ -20,7 +20,7 @@ const Nosotros = () => {
         <meta property="og:title" content="Sistemas H G C | Sobre Nosotros" />
         <meta
           property="og:description"
-          content="Sistemas H G C es una empresa líder en la fabricación y comercialización de piezas automotrices con más de 10 años de experiencia, ofreciendo soluciones innovadoras y de alta calidad para la industria automotriz."
+          content="Sistemas H G C es una empresa líder en la fabricación y comercialización de piezas automotrices con más de 25 años de experiencia, ofreciendo soluciones innovadoras y de alta calidad para la industria automotriz."
         />
         <meta property="og:image" content="../../images/home-image.png" />
         <meta
@@ -32,7 +32,7 @@ const Nosotros = () => {
         <meta name="twitter:title" content="Sistemas H G C | Sobre Nosotros" />
         <meta
           name="twitter:description"
-          content="Sistemas H G C es una empresa líder en la fabricación y comercialización de piezas automotrices con más de 10 años de experiencia, ofreciendo soluciones innovadoras y de alta calidad para la industria automotriz."
+          content="Sistemas H G C es una empresa líder en la fabricación y comercialización de piezas automotrices con más de 25 años de experiencia, ofreciendo soluciones innovadoras y de alta calidad para la industria automotriz."
         />
         <meta name="twitter:image" content="../../images/home-image.png" />
         <link

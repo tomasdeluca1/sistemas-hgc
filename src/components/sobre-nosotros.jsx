@@ -20,7 +20,7 @@ export function SobreNosotros() {
             </h1>
             <p className="mt-8 text-xl leading-8 text-base-100">
               Expertos en fabricación y comercialización de piezas automotrices
-              con más de 10 años de experiencia.
+              con más de 25 años de experiencia.
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ export function SobreNosotros() {
           </h2>
           <p className="mt-8 text-lg leading-8 text-base-200 text-center max-w-2xl mx-auto">
             Sistemas H G C es una empresa líder en la fabricación y
-            comercialización de piezas automotrices. Con más de una década de
+            comercialización de piezas automotrices. Con más de dos décadas de
             experiencia en el sector, hemos desarrollado un profundo
             conocimiento de las necesidades de nuestros clientes y una capacidad
             probada para entregar soluciones a la medida.

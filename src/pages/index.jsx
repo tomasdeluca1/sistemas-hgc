@@ -9,7 +9,7 @@ const index = () => {
         <title>Sistemas H G C | Proveedor Líder de Piezas Automotrices</title>
         <meta
           name="description"
-          content="Sistemas H G C es el proveedor líder de piezas automotrices de alta calidad, sirviendo a la industria automotriz desde hace más de una década con experiencia e innovación."
+          content="Sistemas H G C es el proveedor líder de piezas automotrices de alta calidad, sirviendo a la industria automotriz desde hace más de dos décadas con experiencia e innovación."
         />
         <meta
           name="keywords"
@@ -23,7 +23,7 @@ const index = () => {
         />
         <meta
           property="og:description"
-          content="Sistemas H G C es el proveedor líder de piezas automotrices de alta calidad, sirviendo a la industria automotriz desde hace más de una década con experiencia e innovación."
+          content="Sistemas H G C es el proveedor líder de piezas automotrices de alta calidad, sirviendo a la industria automotriz desde hace más de dos décadas con experiencia e innovación."
         />
         <meta property="og:image" content="../../images/home-image.png" />
         <meta property="og:url" content="https://www.sistemashgc.com" />
@@ -35,7 +35,7 @@ const index = () => {
         />
         <meta
           name="twitter:description"
-          content="Sistemas H G C es el proveedor líder de piezas automotrices de alta calidad, sirviendo a la industria automotriz desde hace más de una década con experiencia e innovación."
+          content="Sistemas H G C es el proveedor líder de piezas automotrices de alta calidad, sirviendo a la industria automotriz desde hace más de dos décadas con experiencia e innovación."
         />
         <meta name="twitter:image" content="../../images/home-image.png" />
         <link rel="canonical" href="https://www.sistemashgc.com" />

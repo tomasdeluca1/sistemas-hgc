@@ -43,7 +43,7 @@ export function HomePage() {
               <p className="text-base-content text-lg mb-6">
                 Sistemas H G C es el proveedor líder de piezas automotrices de
                 alta calidad, que sirve a la industria automotriz desde hace más
-                de una década con experiencia e innovación.
+                de dos décadas con experiencia e innovación.
               </p>
               <div className="flex items-center gap-4">
                 <Link

@@ -8,7 +8,7 @@ class MyDocument extends Document {
           <meta charSet="UTF-8" />
           <meta
             name="description"
-            content="Sistemas HGC: Fabricación y comercialización de autopartes con más de 10 años de experiencia. Tercerizadores de Fiat y Renault. Contáctenos al 4722-0988."
+            content="Sistemas HGC: Fabricación y comercialización de autopartes con más de 25 años de experiencia. Tercerizadores de Fiat y Renault. Contáctenos al 4722-0988."
           />
           <meta
             name="keywords"
@@ -23,7 +23,7 @@ class MyDocument extends Document {
           />
           <meta
             property="og:description"
-            content="Sistemas HGC: Fabricación y comercialización de autopartes con más de 10 años de experiencia. Tercerizadores de Fiat y Renault. Contáctenos al 4722-0988."
+            content="Sistemas HGC: Fabricación y comercialización de autopartes con más de 25 años de experiencia. Tercerizadores de Fiat y Renault. Contáctenos al 4722-0988."
           />
           <meta
             property="og:image"
@@ -39,7 +39,7 @@ class MyDocument extends Document {
           />
           <meta
             name="twitter:description"
-            content="Sistemas HGC: Fabricación y comercialización de autopartes con más de 10 años de experiencia. Tercerizadores de Fiat y Renault. Contáctenos al 4722-0988."
+            content="Sistemas HGC: Fabricación y comercialización de autopartes con más de 25 años de experiencia. Tercerizadores de Fiat y Renault. Contáctenos al 4722-0988."
           />
           <meta
             name="twitter:image"
